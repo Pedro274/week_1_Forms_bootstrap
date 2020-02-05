@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(241, 232, 232);
+}
+
+
+.container {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+input,select {
+    box-shadow: 0 0 2px black;
+}
+
+.submitButton button {
+   margin-left: 4px;
+}
+
+.addNote {
+    color: gray;
+    font-size: small;
+}
+.bulletContainer i{
+   font-size: 22px;
+}
+
+.bulletContainer {
+    width: 250px;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background-color: rgb(194, 186, 186);
+    border-radius: 6px;
+    border: 1px solid black;
+    box-shadow: 0 0 2px black;
+}
+
+.card {
+    border: 1px solid black;
+    box-shadow: 0 0 4px black;
+}
