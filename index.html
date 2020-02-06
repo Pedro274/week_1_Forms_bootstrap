@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./main.css">
     <script src="https://kit.fontawesome.com/0e33f3d152.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <title>Hello, world!</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <title>Pedro-Form!</title>
   </head>
   <body>
       <div class="container d-flex justify-content-center">
@@ -20,7 +20,6 @@
                 <h2>Payment form example</h2>
               </div>
               <div class="card-body">
-
                 <div class="form-row">
                   <div class="col-md-4 mb-3">
                     <label for="validationCustom01">Card #</label>
@@ -40,7 +39,7 @@
                     <label for="validationCustomUsername">Amount</label>
                     <div class="input-group">
                       <div class="input-group-prepend">
-                        <span class="input-group-text" id="inputGroupPrepend">$</span>
+                        <span class="input-group-text dollarSign" id="inputGroupPrepend">$</span>
                       </div>
                       <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
                       <div class="invalid-feedback">
@@ -49,7 +48,6 @@
                     </div>
                   </div>
                 </div>
-
                 <div class="form-row">
                   <div class="col-md-6 mb-3">
                     <label for="validationCustom03">First Name</label>
@@ -66,7 +64,6 @@
                     </div>
                   </div>
                 </div>
-
                 <div class="form-row">
                   <div class="col-md-6 mb-3">
                     <label for="validationCustom03">City</label>
@@ -94,7 +91,6 @@
                     </div>
                   </div>
                 </div>
-
                 <div class="form-row">
                   <div class="col-md-6 mb-3 mt-5">
                     <div class="bulletContainer">
@@ -107,23 +103,21 @@
                         <label class="form-check-label" for="inlineRadio2"><i class="fab fa-cc-visa"></i></label>
                       </div>
                       <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                        <label class="form-check-label" for="inlineRadio2"><i class="fab fa-cc-diners-club"></i></label>
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option2">
+                        <label class="form-check-label" for="inlineRadio3"><i class="fab fa-cc-diners-club"></i></label>
                       </div>
                       <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                        <label class="form-check-label" for="inlineRadio2"><i class="fab fa-cc-amex"></i></label>
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option2">
+                        <label class="form-check-label" for="inlineRadio4"><i class="fab fa-cc-amex"></i></label>
                       </div>
                     </div>
                   </div>
-
                   <div class="col-md-6">
                       <label for="textarea">Message</label>
                       <textarea class="form-control" aria-label="With textarea" id="textarea"></textarea>
                       <span class="addNote"><p>.add any notes here</p></span>
                   </div>
                 </div>
-
               </div><!--end of card body-->
               <div class="card-footer text-muted d-flex justify-content-end submitButton">
                   <button class="btn btn-secondary" type="button">Cancel</button>

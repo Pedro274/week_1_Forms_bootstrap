@@ -1,11 +1,18 @@
-body{
-    background-color: rgb(241, 232, 232);
+body,html{
+    height: 100%;
+    background: rgb(190,228,228);
+    background: -moz-linear-gradient(0deg, rgba(190,228,228,1) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(190,228,228,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(190,228,228,1) 0%, rgba(255,255,255,1) 100%);
 }
 
-
 .container {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Source Sans Pro', sans-serif;;
     font-size: 20px;
+}
+
+.cardContainer {
+    width: 80%;
 }
 
 input,select {
@@ -21,7 +28,7 @@ input,select {
     font-size: small;
 }
 .bulletContainer i{
-   font-size: 22px;
+   font-size: 20px;
 }
 
 .bulletContainer {
@@ -30,9 +37,13 @@ input,select {
     display: flex;
     justify-content: center;
     align-items: baseline;
-    background-color: rgb(194, 186, 186);
+    background-color: rgb(211, 206, 206);
     border-radius: 6px;
     border: 1px solid black;
+    box-shadow: 0 0 2px black;
+}
+
+.dollarSign {
     box-shadow: 0 0 2px black;
 }
 
